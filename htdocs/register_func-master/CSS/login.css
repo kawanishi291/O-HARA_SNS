@@ -1,0 +1,49 @@
+#wrapper {
+	width: 980px;
+	margin: 0 auto;
+  border: solid 1px #000;
+}
+input {
+	margin: 0 auto;
+}
+form{
+	text-align: center;
+}
+form h1{
+  background-color: #fff;
+  text-align: center;
+	border: solid 1px #000;
+}
+div{
+  background-color: #fff;
+}
+p{
+  background-color: #fff;
+	text-align: center;
+}
+.form{
+	width: 200px;
+	background-color: #fff;
+	border: solid 1px #000;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.sign-up{
+  background-color: #fff;
+}
+.sign-up-title{
+  background-color: #fff;
+}
+.sign-up-input{
+  background-color: #fff;
+}
+.sign-up-button{
+  background-color: #fff;
+}
+.about{
+  background-color: #fff;
+}
+.about-author{
+  background-color: #fff;
+}

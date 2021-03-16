@@ -1,0 +1,73 @@
+.wrapper{
+    text-align: center;
+  }
+  body{
+    margin: 0px;
+    height: 100vh;
+    background: linear-gradient(#fff,#fff,#a0c0f0,#6699CC);
+  }
+  form{
+    margin: auto;
+    margin-top: 20px;
+    height: 400px;
+    width: 700px;
+    border: double 2px #000;
+    border-radius: 10px;
+    background-color: #6699CC;
+    text-align: center;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  input ,select{
+    border: solid 2px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  #yotei{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  #Y {
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 20px;
+      float: left;
+  }
+  #M, #D {
+    width: 50px;
+    height: 35px;
+    font-size: 15px;
+    margin-bottom: 20px;
+      float: left;
+  }
+  div{
+    margin-bottom: 20px;
+  }
+  #date,#Stime,#Etime{
+    float: left;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  #date{
+    width: 200px;
+    height: 30px;
+  }
+  #Stime,#Etime{
+    width: 100px;
+    height: 34px;
+  }
+  label{
+    margin-top: 10px;
+  }
+  #checkbox{
+    width: auto;
+    height: auto;
+  }
+  
