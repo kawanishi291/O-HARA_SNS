@@ -16,8 +16,9 @@ root/
 　│  ├ Dockerfile
 　│  └ php.ini
 　├ mysql/
-　│　└ db/
-　│　　　└ init.sql
+　│  ├ db/
+　│  │  └ init.sql
+　│  └ my.cnf 
 　└ docker-compose.yml
 ```
 
@@ -38,7 +39,7 @@ $ docker-compose up -d
 ```
 $ docker ps -a
 ```
-#### mysqlのコンテナIDをコピーし、下記３ファイルを書き換える。
+#### mysqlのコンテナIDをコピーし、下記３ファイルのhostを書き換える。
 
 * /O-HARA_SNS/htdocs/dbconnect/mysqli_connect.php
 * /O-HARA_SNS/htdocs/dbconnect/pdo_connect.php
